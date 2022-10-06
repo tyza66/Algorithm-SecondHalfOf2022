@@ -1,13 +1,13 @@
 #include<stdio.h> 
 //0-1背包 
 //物品数量
-#define WPSL 7
+#define WPSL 8
 //背包容量
  #define BBRL 15
 //物品 价值，质量 [V,W] = [0,1]
 #define V 0
 #define W 1
-int things_1[WPSL][2] = {{10,2},{5,3},{15,5},{7,7},{6,1},{18,4},{3,1}};
+int things_1[WPSL][2] = {{1,2},{5,9},{16,7},{9,7},{6,3},{21,4},{37,12},{5,21}};
 //用于求解阵列[a,b]
 int out[WPSL][BBRL+1]; 
 //用于检测是否装入
